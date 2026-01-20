@@ -1,0 +1,280 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Millionaires Spins — Legendary Casino Hub</title>
+  <style>
+    :root{
+      --bg:#070707;
+      --panel: rgba(255,255,255,0.04);
+      --accent: #f5c542;
+      --radius: 14px;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+
+    body{
+      margin:0;
+      min-height:100vh;
+      background: var(--bg);
+      color:#fff;
+      position: relative;
+      overflow:hidden;
+    }
+
+    /* Background slideshow */
+    .slideshow {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+    }
+    .slideshow img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0;
+      animation: fade 24s infinite;
+    }
+    .slideshow img:nth-child(1){ animation-delay: 0s; }
+    .slideshow img:nth-child(2){ animation-delay: 8s; }
+    .slideshow img:nth-child(3){ animation-delay: 16s; }
+
+    @keyframes fade {
+      0% { opacity: 0; }
+      8% { opacity: 1; }
+      33% { opacity: 1; }
+      41% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+
+    body::before{
+      content:"";
+      position:absolute;
+      inset:0;
+      background:rgba(0,0,0,0.65);
+      z-index:1;
+    }
+
+    header, main{
+      position:relative;
+      z-index:2;
+    }
+
+    header{
+      padding:28px 32px;
+      display:flex;
+      align-items:center;
+      gap:18px;
+      border-bottom:1px solid rgba(255,255,255,0.05);
+    }
+    .brand {
+      font-weight:800;
+      font-size:22px;
+      color: gold;
+    }
+    .brand small{
+      display:block;
+      font-weight:600;
+      color: #ffd97a;
+      margin-top:2px;
+      font-size:13px;
+    }
+
+    main{
+      padding:40px;
+      max-width:1200px;
+      margin:0 auto;
+    }
+
+    .hero{
+      text-align:center;
+      margin-bottom:40px;
+    }
+    .hero h1{
+      font-size:38px;
+      color: gold;
+    }
+
+    .download-grid{
+      display:grid;
+      grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+      gap:18px;
+    }
+    .card{
+      background: var(--panel);
+      border-radius:12px;
+      padding:16px;
+      text-align:center;
+      transition: transform .18s ease, box-shadow .18s ease;
+    }
+    .card:hover{
+      transform: translateY(-6px);
+      box-shadow: 0 0 30px rgba(245,197,66,0.25);
+    }
+    .card img{
+      max-width:80px;
+      margin-bottom:10px;
+    }
+    .card h4{
+      margin:0;
+      font-size:16px;
+      color:#fff;
+    }
+    .card p{
+      margin:6px 0 0 0;
+      font-size:13px;
+      color:#cfcfcf;
+    }
+    .btn{
+      display:inline-block;
+      margin-top:10px;
+      padding:8px 12px;
+      border-radius:10px;
+      border:none;
+      cursor:pointer;
+      font-weight:700;
+      background: linear-gradient(90deg,#ffd966,#ffb347);
+      color:#000;
+      text-decoration:none;
+      font-size:14px;
+    }
+
+    section {
+      margin-top:50px;
+    }
+    section h2{
+      color:gold;
+      margin-bottom:15px;
+      text-align:center;
+    }
+    section ul{
+      line-height:1.6;
+    }
+    .contact-btns{
+      margin-top:20px;
+      display:flex;
+      gap:20px;
+      justify-content:center;
+    }
+    .contact-btns a{
+      padding:12px 20px;
+      border-radius:30px;
+      font-weight:bold;
+      text-decoration:none;
+      color:black;
+      background: linear-gradient(45deg, gold, orange);
+      box-shadow: 0 0 12px rgba(255,215,0,0.3);
+    }
+  </style>
+</head>
+<body>
+  <!-- Background slideshow -->
+  <div class="slideshow">
+    <img src="https://images.pexels.com/photos/167092/pexels-photo-167092.jpeg" alt="Bikini Slots 1">
+    <img src="https://images.pexels.com/photos/189853/pexels-photo-189853.jpeg" alt="Bikini Slots 2">
+    <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg" alt="Bikini Slots 3">
+  </div>
+
+  <header>
+    <div class="brand">Millionaires Spins <small>Legendary Casino Hub</small></div>
+  </header>
+
+<main>
+    <div class="hero">
+      <h1>Welcome to Millionaires Spins</h1>
+      <p>Win big, play legendary. Quick downloads, fair rules, and amazing promotions.</p>
+    </div>
+
+    <!-- All Games Section -->
+    <section id="downloads">
+      <h2>🎰 All Partner Games</h2>
+      <div class="download-grid">
+        <div class="card">
+          <img src="https://via.placeholder.com/80x80?text=GV" alt="Game Vault">
+          <h4>Game Vault</h4>
+          <a class="btn" href="https://gamevault999.com/" target="_blank">Download</a>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/80x80?text=Juwa" alt="Juwa">
+          <h4>Juwa</h4>
+          <a class="btn" href="https://dl.juwa777.com/" target="_blank">Download</a>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/80x80?text=FK" alt="FireKirin">
+          <h4>FireKirin</h4>
+          <a class="btn" href="http://start.firekirin.xyz:8580/" target="_blank">Download</a>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/80x80?text=Orion" alt="Orion Stars">
+          <h4>Orion Stars</h4>
+          <a class="btn" href="http://start.orionstars.vip:8580/" target="_blank">Download</a>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/80x80?text=GR" alt="Game Room">
+          <h4>Game Room 777</h4>
+          <a class="btn" href="https://www.gameroom777.com/" target="_blank">Download</a>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/80x80?text=MW" alt="MilkyWay">
+          <h4>MilkyWay</h4>
+          <a class="btn" href="https://milkywayapp.xyz/" target="_blank">Download</a>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/80x80?text=Mafia" alt="Mafia">
+          <h4>Mafia 77777</h4>
+          <a class="btn" href="https://www.mafia77777.com/m" target="_blank">Download</a>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/80x80?text=CashM" alt="Cash Machine">
+          <h4>Cash Machine 777</h4>
+          <a class="btn" href="https://www.cashmachine777.com/m" target="_blank">Download</a>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/80x80?text=YOLO" alt="YOLO">
+          <h4>YOLO 777</h4>
+          <a class="btn" href="https://yolo777.io/" target="_blank">Download</a>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/80x80?text=Vegas" alt="Vegas Sweeps">
+          <h4>Vegas Sweeps</h4>
+          <a class="btn" href="https://vegassweeps.io/" target="_blank">Download</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rules Section -->
+    <section id="rules">
+      <h2>📜 Cashout Rules</h2>
+      <ul>
+        <li><strong>Standard Players:</strong> Minimum cashout = 4× loaded amount, Maximum = 8× loaded amount.</li>
+        <li>Examples: Load $10 → Cashout $40–$80, Load $20 → Cashout $80–$160, Load $30 → Cashout $120–$240.</li>
+        <li><strong>High Rollers ($50+):</strong> Minimum cashout = 3× loaded amount, <u>No maximum limit</u>.</li>
+        <li>Example: Load $50 → Minimum $150, Load $100 → Minimum $300.</li>
+      </ul>
+    </section>
+
+    <!-- Bonuses -->
+    <section id="bonuses">
+      <h2>🎁 Bonuses & Promotions</h2>
+      <ul>
+        <li>100% Welcome Bonus on your first load</li>
+        <li>Daily Reload Bonus up to 50%</li>
+        <li>Refer a Friend → Get $5 bonus</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>📲 Contact Us</h2>
+      <div class="contact-btns">
+        <a href="https://wa.me/1234567890" target="_blank">WhatsApp</a>
+        <a href="https://t.me/yourtelegram" target="_blank">Telegram</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
